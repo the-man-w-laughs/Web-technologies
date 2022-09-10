@@ -1,3 +1,3 @@
 ## Web-technologies
-#BSUIR
+# BSUIR
 first lab works on web-tech
