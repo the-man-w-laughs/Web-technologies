@@ -15,7 +15,6 @@ public class PrimeArray {
                 primesIndexes.add(i + 1);
             }
         }
-
         return primesIndexes.stream().mapToInt(i -> i).toArray();
     }
 }
