@@ -1,7 +1,7 @@
 package src.by.bsuir.lab1.java_fundamentals.task8;
 
 public class Arrays {
-        /**
+    /**
      * Method determines positions in ascendingArray1
      * to insert elements from ascendingArray2 so that
      * result array will be ascenging too.
@@ -17,9 +17,9 @@ public class Arrays {
             if ((i >= ascendingArray1.length) || (ascendingArray2[j] <= ascendingArray1[i])) {
                 positions[j] = i - 1;
                 j++;
-            } else {                
+            } else {
                 i++;
-            }        
+            }
         }
         return positions;
     }

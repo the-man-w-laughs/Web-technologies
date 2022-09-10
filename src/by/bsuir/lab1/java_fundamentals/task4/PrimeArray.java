@@ -9,13 +9,13 @@ public class PrimeArray {
      */
     public static int[] getPrimePositions(int[] array) {
         ArrayList<Integer> primesIndexes = new ArrayList<Integer>();
-        
+
         for (int i = 0; i < array.length; i++) {
             if (MathOperation.checkIsNumberPrime(array[i])) {
                 primesIndexes.add(i + 1);
             }
         }
-        
+
         return primesIndexes.stream().mapToInt(i -> i).toArray();
     }
 }

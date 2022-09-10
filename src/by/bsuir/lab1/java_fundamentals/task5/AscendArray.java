@@ -21,7 +21,7 @@ public class AscendArray {
             }
         }
 
-        int minNumberToDrop = array.length - ArrayOperations.getMax(counts); 
+        int minNumberToDrop = array.length - ArrayOperations.getMax(counts);
         return minNumberToDrop;
     }
 }
